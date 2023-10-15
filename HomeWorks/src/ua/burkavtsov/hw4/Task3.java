@@ -1,6 +1,5 @@
 package ua.burkavtsov.hw4;
 
-import java.io.OptionalDataException;
 import java.util.Random;
 
 public class Task3 {

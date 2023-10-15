@@ -14,6 +14,18 @@ public class Task2 {
 
     public static int countWords(String input){
         String[] words = input.split("\\s+");
-        return words.length;
+        int count = 0;
+        for (String word : words) {
+            if (!word.isEmpty()) {
+                count++;
+            }
+        }
+        return count;
     }
+
+
+
+
+
+
 }

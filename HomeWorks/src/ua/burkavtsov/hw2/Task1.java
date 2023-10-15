@@ -12,14 +12,14 @@ public class Task1 {
         double xA = 1, yA = 5;
         double xB = 3, yB = 5;
         double xC = 6, yC = 7;
-        double Geron = clone(xA, yA, xB, yB, xC, yC);
+        double Geron = calculateTriangleArea(xA, yA, xB, yB, xC, yC);
         System.out.println(COLOR_RED + "Данны координаты: " + COLOR_WHITE + "A(1, 5), B(3, 5), C(6, 7)");
         //Формула
         System.out.println(COLOR_YELLOW + "Будем использовать формулу Герона");
         System.out.println(COLOR_GREEN + "Результат: " + COLOR_WHITE + Geron);
     }
 
-    public static double clone(double xA, double yA, double xB, double yB, double xC, double yC) {
+    public static double calculateTriangleArea(double xA, double yA, double xB, double yB, double xC, double yC) {
         double side1 = Math.sqrt(Math.pow(xB - xA, 2) + Math.pow(yB - yA, 2));
         double side2 = Math.sqrt(Math.pow(xC - xB, 2) + Math.pow(yC - yB, 2));
         double side3 = Math.sqrt(Math.pow(xA - xC, 2) + Math.pow(yA - yC, 2));
