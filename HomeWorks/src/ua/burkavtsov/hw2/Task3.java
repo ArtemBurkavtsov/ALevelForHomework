@@ -5,11 +5,11 @@ public class Task3 {
         double num1 = 4.15;
         double num2 = 3.18;
         double num3 = 1.12;
-        double MinNum = FindMinNum(num1, num2, num3);
+        double MinNum = findMinNum(num1, num2, num3);
         System.out.println("Меньшее по модулю число: " + MinNum);
     }
 
-    public static double FindMinNum(double num1, double num2, double num3) {
+    public static double findMinNum(double num1, double num2, double num3) {
         double absNum1 = (num1 < 0) ? -num1 : num1;
         double absNum2 = (num2 < 0) ? -num2 : num2;
         double absNum3 = (num3 < 0) ? -num3 : num3;
