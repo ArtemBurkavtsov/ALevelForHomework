@@ -19,13 +19,8 @@ public class Task1 {
         int value = 1;
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                array[i][j] = value;
+                array[i][j] = (i % 2 == 0) ? value : -value;
                 value++;
-            }
-            if (i % 2 == 1) {
-                for (int j = 0; j < array[i].length; j++) {
-                    array[i][j] *= -1;
-                }
             }
         }
     }
