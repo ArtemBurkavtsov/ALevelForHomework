@@ -9,9 +9,9 @@ public class Task2 {
         triangle[3] = new int[4];
         triangle[4] = new int[5];
         for (int i = 0; i < triangle.length; i++) {
-            System.out.println(triangle[i].length + "!");
+            System.out.println(triangle[i].length + "!"); // Добавил [i] чтобы вывести длинну каждого массива
             System.out.println("i = " + i);
-            for (int j = 0; j < triangle[i].length; j++) {
+            for (int j = 0; j < triangle[i].length; j++) { // Подправил цикл добавив [i]
                 System.out.println(triangle[i].length);
                 triangle[i][j] = 0;
             }

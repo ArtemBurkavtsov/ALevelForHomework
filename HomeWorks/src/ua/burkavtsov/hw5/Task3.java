@@ -6,25 +6,23 @@ public class Task3 {
                 {'1', '2'},
                 {'3', '4'}
         };
-        char[] transformArray = transformedArray(naturalArray);
+        char[][] transformedArray = transformArray(naturalArray);
         System.out.println("Изначально: ");
         printArray(naturalArray);
         System.out.println("Изменено: ");
-        System.out.println(transformArray);
+        printArray(transformedArray);
     }
 
-    public static char[] transformedArray(char[][] naturalArray) {
+    public static char[][] transformArray(char[][] naturalArray) {
         int rows = naturalArray.length;
         int cols = naturalArray[0].length;
-        char[] transformArray = new char[rows * cols];
-        int index = 0;
-        for (int j = 0; j < rows; j++) {
-            for (int i = 0; i < rows; i++) {
-                transformArray[index] = naturalArray[i][j];
-                index++;
+        char[][] transformedArray = new char[cols][rows];
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                transformedArray[j][i] = naturalArray[i][j];
             }
         }
-        return transformArray;
+        return transformedArray;
     }
 
     public static void printArray(char[][] array) {
