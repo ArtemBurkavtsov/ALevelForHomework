@@ -2,30 +2,30 @@ package ua.burkavtsov.hw8.task2;
 
 public class Main {
     public static void main(String[] args) {
-        Animal animal1 = new Animal();
-        Animal animal2 = new Animal();
-        Animal animal3 = new Animal();
-        animal1.setHoursOfSleeping(8);
-        animal1.setKindOFood("Dog");
-        animal2.setHoursOfSleeping(10);
-        animal2.setKindOFood("Rabbit");
-        animal3.setHoursOfSleeping(12);
-        animal3.setKindOFood("Cat");
+        Animal dog = new Animal();
+        Animal rabbit = new Animal();
+        Animal cat = new Animal();
+        dog.setHoursOfSleeping(8);
+        dog.setKindOFood("Dog");
+        rabbit.setHoursOfSleeping(10);
+        rabbit.setKindOFood("Rabbit");
+        cat.setHoursOfSleeping(12);
+        cat.setKindOFood("Cat");
 
-        Animal animalWithMostSleep = findAnimalWithMostSleep(animal1, animal2, animal3);
+        Animal animalWithMostSleep = findAnimalWithMostSleep(dog, rabbit, cat);
 
         if (animalWithMostSleep != null) {
             System.out.println("Animal with the most hours of sleep eats: " + animalWithMostSleep.getKindOFood());
         }
     }
 
-    public static Animal findAnimalWithMostSleep(Animal animal1, Animal animal2, Animal animal3) {
-        Animal animalWithMostSleep = animal1;
-        if (animal2.getHoursOfSleeping() > animalWithMostSleep.getHoursOfSleeping()) {
-            animalWithMostSleep = animal2;
+    public static Animal findAnimalWithMostSleep(Animal dog, Animal rabbit, Animal cat) {
+        Animal animalWithMostSleep = dog;
+        if (rabbit.getHoursOfSleeping() > animalWithMostSleep.getHoursOfSleeping()) {
+            animalWithMostSleep = rabbit;
         }
-        if (animal3.getHoursOfSleeping() > animalWithMostSleep.getHoursOfSleeping()) {
-            animalWithMostSleep = animal3;
+        if (cat.getHoursOfSleeping() > animalWithMostSleep.getHoursOfSleeping()) {
+            animalWithMostSleep = cat;
         }
 
         return animalWithMostSleep;

@@ -1,11 +1,19 @@
 package ua.burkavtsov.hw9;
 
-class Figure {
-    public double perimeter() {
-        return 0.0;
+public abstract class Figure {
+    public abstract double perimeter();
+    public abstract double area() throws InvalidParameterException, NonExistentTriangleException;
+
+}
+class InvalidParameterException extends Exception {
+    public InvalidParameterException(String message) {
+        super(message);
+    }
+}
+
+class NonExistentTriangleException extends Exception {
+    public NonExistentTriangleException(String message) {
+        super(message);
     }
 
-    public double area() {
-        return 0.0;
-    }
 }

@@ -1,3 +1,5 @@
+package ua.burkavtsov.hw8.task3;
+
 public class NewClass {
     private int private1;
     private int private2;

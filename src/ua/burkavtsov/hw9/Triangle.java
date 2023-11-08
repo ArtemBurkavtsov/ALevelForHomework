@@ -16,23 +16,39 @@ class Triangle extends Figure {
         return side1 + side2 + side3;
     }
 
-    public double areaHeron() {
+    public double areaHeron() throws InvalidParameterException, NonExistentTriangleException {
+        if (side1 <= 0 || side2 <= 0 || side3 <= 0) {
+            throw new InvalidParameterException("Side lengths must be positive values.");
+        }
+
         double s = perimeter() / 2;
-        return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+        double area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+
+        if (Double.isNaN(area) || Double.isInfinite(area)) {
+            throw new NonExistentTriangleException("The triangle with given side lengths does not exist.");
+        }
+
+        return area;
     }
 
-    public double areaSine() {
-        double angle1 = Math.acos((side2 * side2 + side3 * side3 - side1 * side1) / (2 * side2 * side3));
+    public double area(double side2, double side3, double angle1) throws InvalidParameterException {
+        if (side2 <= 0 || side3 <= 0) {
+            throw new InvalidParameterException("Side lengths must be positive values.");
+        }
+
         return 0.5 * side2 * side3 * Math.sin(angle1);
     }
 
-    public double areaBaseHeight(double base, double height) {
+    public double area(double base, double height) throws InvalidParameterException {
+        if (base <= 0 || height <= 0) {
+            throw new InvalidParameterException("Base and height must be positive values.");
+        }
+
         return 0.5 * base * height;
     }
 
     @Override
-    public double area() {
+    public double area() throws InvalidParameterException, NonExistentTriangleException {
         return areaHeron(); // Default to Heron's formula
     }
 }
-
