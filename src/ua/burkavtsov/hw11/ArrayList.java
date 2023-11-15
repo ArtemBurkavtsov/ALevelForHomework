@@ -6,9 +6,16 @@ public class ArrayList<T> {
     private Object[] array;
     private int size;
 
+    // Default constructor
     public ArrayList() {
-        this.size = 0;
-        this.array = new Object[10]; /
+        size = 0;
+        array = new Object[10];
+    }
+
+    // Constructor with size initialization
+    public ArrayList(int size) {
+        this.size = size;
+        array = new Object[size];
     }
 
     public void add(T element) {
