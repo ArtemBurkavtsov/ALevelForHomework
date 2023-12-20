@@ -1,6 +1,6 @@
 package ua.burkavtsov.hw9;
 
-class Triangle extends Figure {
+public class Triangle extends Figure {
     private double side1;
     private double side2;
     private double side3;
@@ -12,11 +12,10 @@ class Triangle extends Figure {
     }
 
     @Override
-    public double perimeter() {
-        return side1 + side2 + side3;
-    }
+return side1 + side2 + side3;
+}
 
-    public double areaHeron() throws InvalidParameterException, NonExistentTriangleException {
+    public double calculateAreaUsingHeron() throws InvalidParameterException, NonExistentTriangleException {
         if (side1 <= 0 || side2 <= 0 || side3 <= 0) {
             throw new InvalidParameterException("Side lengths must be positive values.");
         }
@@ -39,16 +38,20 @@ class Triangle extends Figure {
         return 0.5 * side2 * side3 * Math.sin(angle1);
     }
 
-    public double area(double base, double height) throws InvalidParameterException {
-        if (base <= 0 || height <= 0) {
-            throw new InvalidParameterException("Base and height must be positive values.");
+    public double area(double angle1) throws InvalidParameterException {
+        if (side2 <= 0 || side3 <= 0 || angle1 <= 0) {
+            throw new InvalidParameterException("Side lengths and angle must be positive values.");
         }
 
-        return 0.5 * base * height;
+        return 0.5 * side2 * side3 * Math.sin(Math.toRadians(angle1));
     }
 
     @Override
-    public double area() throws InvalidParameterException, NonExistentTriangleException {
-        return areaHeron(); // Default to Heron's formula
+    public double area(double angle1) throws InvalidParameterException {
+        if (side1 <= 0 || side2 <= 0 || angle1 <= 0) {
+            throw new InvalidParameterException("Side lengths and angle must be positive values.");
+        }
+
+        return 0.5 * side1 * side2 * Math.sin(Math.toRadians(angle1));
     }
 }

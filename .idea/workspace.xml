@@ -4,17 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="Add HW9. With classes Figure, Circle, Square,  Triangle and Main">
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw10/InvalidParameterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw10/NonExistentTriangleException.java" afterDir="false" />
+    <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="UPD HW 9-11&#10;ADD HW 12-13">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw12/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw12/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw13/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw13/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw14/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw14/EmployeeProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw15/Task1/ShowInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw15/Task2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw15/Task2/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/EMH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/HQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/HQLCon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/module2/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw8/task1/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw8/task1/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw8/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw8/task2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw8/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw8/task3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw8/task3/NewClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw8/task3/NewClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw8/task3/Subclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw8/task3/Subclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-level-homeworks/reflection/src/main/java/com/alevel/StudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw6/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw11/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw11/ArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw9/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw9/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw9/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw9/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw9/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,10 +58,11 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="module" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -77,14 +90,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw9&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "rection",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ua.burkavtsov" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.burkavtsov.module2.Task" />
+      <module name="ALevelForHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.burkavtsov.module2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -118,12 +156,55 @@
       <option name="project" value="LOCAL" />
       <updated>1699260479075</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UPD HW8,9 and make HW10 in HW9 Add parameters validity check">
+      <option name="closed" value="true" />
+      <created>1699438818627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699438818627</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add HW11">
+      <option name="closed" value="true" />
+      <created>1699685037164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699685037164</updated>
+    </task>
+    <task id="LOCAL-00006" summary="UPD HW11">
+      <option name="closed" value="true" />
+      <created>1700047052850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700047052851</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделал ДЗ8" />
     <MESSAGE value="Add HW9. With classes Figure, Circle, Square,  Triangle and Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add HW9. With classes Figure, Circle, Square,  Triangle and Main" />
+    <MESSAGE value="UPD HW8,9 and make HW10 in HW9 Add parameters validity check" />
+    <MESSAGE value="Add HW11" />
+    <MESSAGE value="UPD HW11" />
+    <MESSAGE value="UPD HW 9-11&#10;ADD HW 12-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPD HW 9-11&#10;ADD HW 12-13" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ua/burkavtsov/hw11/ArrayList.java</url>
+          <line>13</line>
+          <properties class="ua.burkavtsov.hw11.ArrayList" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
