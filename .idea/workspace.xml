@@ -4,30 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="UPD HW 9-11&#10;ADD HW 12-13">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw12/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw12/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw13/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw13/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw14/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw14/EmployeeProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw15/Task1/ShowInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw15/Task2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw15/Task2/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/EMH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/HQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/HQLCon.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/module2/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="ADD HW LAST HW">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw15/Task1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task1/JsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task1/JsonSerial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task1/JsonWritter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task1/connect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task2/sqlandnosql.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task3/Mongo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task3/mongo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-level-homeworks/reflection/src/main/java/com/alevel/StudentTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw6/Task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw11/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw11/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw9/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw9/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw9/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw9/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALevelForHomework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ALevelForHomework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw2/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw2/Task3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw3/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw3/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw4/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw4/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw4/Task3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw5/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw5/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw5/Task3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw6/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw7/Vector.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +94,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "rection",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rection&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ua.burkavtsov" />
@@ -180,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700047052851</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ADD HW LAST HW">
+      <option name="closed" value="true" />
+      <created>1703058117853</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703058117853</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,7 +202,8 @@
     <MESSAGE value="Add HW11" />
     <MESSAGE value="UPD HW11" />
     <MESSAGE value="UPD HW 9-11&#10;ADD HW 12-13" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPD HW 9-11&#10;ADD HW 12-13" />
+    <MESSAGE value="ADD HW LAST HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD HW LAST HW" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
