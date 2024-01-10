@@ -4,34 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="ADD HW LAST HW">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw15/Task1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task1/JsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task1/JsonSerial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task1/JsonWritter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task1/connect.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task2/sqlandnosql.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task3/Mongo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw23/task3/mongo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="ADD HW24(Not 23) 10.01.24">
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/HW24/Hib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/HW24/JBDC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALevelForHomework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ALevelForHomework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/Task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw2/Task1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw2/Task3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw3/Task1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw3/Task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw4/Task1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw4/Task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw4/Task3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw5/Task1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw5/Task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw5/Task3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw6/Phone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALevelForHomework/ua/burkavtsov/hw7/Vector.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +38,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="module" />
+        <entry key="$PROJECT_DIR$" value="rection" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,7 +74,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;rection&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dao&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
@@ -192,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703058117853</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ADD HW24 27.12.23">
+      <option name="closed" value="true" />
+      <created>1703675479109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703675479110</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,7 +187,9 @@
     <MESSAGE value="UPD HW11" />
     <MESSAGE value="UPD HW 9-11&#10;ADD HW 12-13" />
     <MESSAGE value="ADD HW LAST HW" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD HW LAST HW" />
+    <MESSAGE value="ADD HW24 27.12.23" />
+    <MESSAGE value="ADD HW24(Not 23) 10.01.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD HW24(Not 23) 10.01.24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
