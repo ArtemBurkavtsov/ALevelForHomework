@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="ADD HW24(Not 23) 10.01.24">
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/HW24/Hib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/HW24/JBDC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw15/Task2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw15/Task2/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/EMH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/EMH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/HQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw22/HQL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="rection" />
+        <entry key="$PROJECT_DIR$" value="dao" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,14 +71,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dao&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "upd-for-jan",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ua.burkavtsov" />
@@ -176,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703675479110</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ADD HW24(Not 23) 10.01.24">
+      <option name="closed" value="true" />
+      <created>1704907136610</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704907136611</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,7 +1,27 @@
 package ua.burkavtsov.hw22;
 
+import org.hibernate.Session;
+import org.hibernate.query.Query;
+import ua.burkavtsov.hw22.User;
+import ua.burkavtsov.hw22.Order;
+
 public class HQL {
-    String hql1 = "SELECT u FROM User u WHERE size(u.orders) > 5";
-    String hql2 = "SELECT o FROM Order o WHERE o.user = :user AND o.orderDate BETWEEN :startDate AND :endDate";
-    String hql3 = "SELECT u.username, COUNT(o) FROM User u LEFT JOIN u.orders o GROUP BY u.username";
+    public void HqlQueries(Session session) {
+        Query<User> query1 = session.createQuery(hql1, User.class);
+        List<User> usersWithMoreThan5Orders = query1.getResultList();
+
+        Query<Order> query2 = session.createQuery(hql2, Order.class);
+        query2.setParameter("user", someUserObject);
+        query2.setParameter("startDate", startDate);
+        query2.setParameter("endDate", endDate);
+        List<Order> ordersForUserInDateRange = query2.getResultList();
+
+        Query<Object[]> query3 = session.createQuery(hql3, Object[].class);
+        List<Object[]> usernameOrderCountList = query3.getResultList();
+        for (Object[] result : usernameOrderCountList) {
+            String username = (String) result[0];
+            Long orderCount = (Long) result[1];
+            System.out.println("Username: " + username + ", Order Count: " + orderCount);
+        }
+    }
 }

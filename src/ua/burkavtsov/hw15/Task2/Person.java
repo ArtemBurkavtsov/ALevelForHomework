@@ -1,30 +1,19 @@
 package ua.burkavtsov.hw15.Task2;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 
 class Person {
     private String name;
     private int age;
     private String address;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
+    public Person(String name, int age, String address) {
         this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
         this.age = age;
-    }
-
-    public String getAddress() {
-        return address;
+        this.address = address;
     }
 
     public void setAddress(String address) {
@@ -33,11 +22,14 @@ class Person {
 }
 
 class PersonFactory {
-    public Person createPerson(String name, int age, String address) {
-        Person person = new Person();
-        person.setName(name);
-        person.setAge(age);
-        person.setAddress(address);
+
+    public static Person createPerson(String name, int age, String address)
+            throws NoSuchMethodException, IllegalAccessException,
+            InvocationTargetException, InstantiationException {
+
+        Constructor<Person> constructor = Person.class.getConstructor(String.class, int.class, String.class);
+        Person person = constructor.newInstance(name, age, address);
+
         return person;
     }
 

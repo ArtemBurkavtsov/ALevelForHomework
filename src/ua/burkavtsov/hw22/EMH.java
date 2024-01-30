@@ -8,58 +8,56 @@ import javax.persistence.Persistence;
 public class EMH {
 
     public static void main(String[] args) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("yourPersistenceUnitName");
-        EntityManager em = emf.createEntityManager();
+        try (EntityManagerFactory emf = Persistence.createEntityManagerFactory("yourPersistenceUnitName");
+             EntityManager em = emf.createEntityManager()) {
 
-        User user = new User();
-        user.setUsername("John Doe");
+            User user = new User();
+            user.setUsername("John Doe");
 
-        EntityTransaction tx = em.getTransaction();
-        try {
-            tx.begin();
+            EntityTransaction tx = em.getTransaction();
+            try {
+                tx.begin();
 
-            em.persist(user);
+                em.persist(user);
 
-            tx.commit();
-        } catch (Exception e) {
-            if (tx.isActive()) {
-                tx.rollback();
+                tx.commit();
+            } catch (Exception e) {
+                if (tx.isActive()) {
+                    tx.rollback();
+                }
+                e.printStackTrace();
             }
-            e.printStackTrace();
-        }
 
-        User retrievedUser = em.find(User.class, user.getId());
-        System.out.println("Retrieved User: " + retrievedUser.getUsername());
+            User retrievedUser = em.find(User.class, user.getId());
+            System.out.println("Retrieved User: " + retrievedUser.getUsername());
 
-        tx = em.getTransaction();
-        try {
-            tx.begin();
+            tx = em.getTransaction();
+            try {
+                tx.begin();
 
-            retrievedUser.setUsername("Updated Name");
+                retrievedUser.setUsername("Updated Name");
 
-            tx.commit();
-        } catch (Exception e) {
-            if (tx.isActive()) {
-                tx.rollback();
+                tx.commit();
+            } catch (Exception e) {
+                if (tx.isActive()) {
+                    tx.rollback();
+                }
+                e.printStackTrace();
             }
-            e.printStackTrace();
-        }
 
-        tx = em.getTransaction();
-        try {
-            tx.begin();
+            tx = em.getTransaction();
+            try {
+                tx.begin();
 
-            em.remove(retrievedUser);
+                em.remove(retrievedUser);
 
-            tx.commit();
-        } catch (Exception e) {
-            if (tx.isActive()) {
-                tx.rollback();
+                tx.commit();
+            } catch (Exception e) {
+                if (tx.isActive()) {
+                    tx.rollback();
+                }
+                e.printStackTrace();
             }
-            e.printStackTrace();
-        } finally {
-            em.close();
-            emf.close();
         }
     }
 }
