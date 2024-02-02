@@ -1,0 +1,13 @@
+HTTTP-GET используют его для того чтобы принять данные которые дает серв
+и передает их в URL строку
+
+POST используют для отправки данных на серв , отправляются на тело запроса.
+POST /api/HTTPEXMP/1.1
+Host: example.com
+Content-Type: application/json
+Content-Length: 35
+
+{
+  "key_1": "value_1",
+  "key_2": "value_2"
+}
