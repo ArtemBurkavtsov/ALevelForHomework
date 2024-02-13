@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="UPD All mistakes HW 15 and HW 22&#10;ADD 2 HOMEWORKS">
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw25/hw25_2/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw25/hw25_2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw25/hw25_2/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw25/hw25_2/Task4.java" afterDir="false" />
+    <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="RELOAD and ADD FULL HW Concurrency and Networking">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dao" />
+        <entry key="$PROJECT_DIR$" value="13.02" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,14 +71,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;upd-for-jan&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "upd-for-jan",
+    "last_opened_file_path": "C:/Users/burka_gqys6yk/Downloads/servlet-api-3.0-alpha-1.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ua.burkavtsov" />
@@ -101,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task" />
         <item itemvalue="Application.Task" />
       </list>
     </recent_temporary>
@@ -202,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706899494759</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="RELOAD and ADD FULL HW Concurrency and Networking">
+      <option name="closed" value="true" />
+      <created>1707828499172</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707828499172</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,7 +234,8 @@
     <MESSAGE value="ADD HW24(Not 23) 10.01.24" />
     <MESSAGE value="UPD All mistakes HW 15 and HW 22" />
     <MESSAGE value="UPD All mistakes HW 15 and HW 22&#10;ADD 2 HOMEWORKS" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPD All mistakes HW 15 and HW 22&#10;ADD 2 HOMEWORKS" />
+    <MESSAGE value="RELOAD and ADD FULL HW Concurrency and Networking" />
+    <option name="LAST_COMMIT_MESSAGE" value="RELOAD and ADD FULL HW Concurrency and Networking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
