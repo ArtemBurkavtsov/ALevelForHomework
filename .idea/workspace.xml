@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="UPD All mistakes HW 15 and HW 22">
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw25/task1/var1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw25/task2/var2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw26/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw26/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw26/Theory.txt" afterDir="false" />
+    <list default="true" id="2cd6bd3c-49ae-4a5f-bfa7-52a7358733bc" name="Changes" comment="UPD All mistakes HW 15 and HW 22&#10;ADD 2 HOMEWORKS">
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw25/hw25_2/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw25/hw25_2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw25/hw25_2/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/burkavtsov/hw25/hw25_2/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706608016583</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="UPD All mistakes HW 15 and HW 22&#10;ADD 2 HOMEWORKS">
+      <option name="closed" value="true" />
+      <created>1706899494759</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706899494759</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,7 +216,8 @@
     <MESSAGE value="ADD HW24 27.12.23" />
     <MESSAGE value="ADD HW24(Not 23) 10.01.24" />
     <MESSAGE value="UPD All mistakes HW 15 and HW 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPD All mistakes HW 15 and HW 22" />
+    <MESSAGE value="UPD All mistakes HW 15 and HW 22&#10;ADD 2 HOMEWORKS" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPD All mistakes HW 15 and HW 22&#10;ADD 2 HOMEWORKS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
